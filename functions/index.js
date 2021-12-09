@@ -47,4 +47,4 @@ app.post('/', async (req, res) => {
     }
 })
 
-export const api = functions.region('asia-southeast1').https.onRequest(app)
+export const api = functions.https.onRequest(app)
